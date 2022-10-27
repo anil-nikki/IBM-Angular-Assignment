@@ -1,0 +1,21 @@
+<section class="container">
+  <div class="row">
+    <div class="col-8" *ngIf="productDetail">
+      <div class="row">
+        <div class="col-md-6 col-lg-7">
+          <img class="productDetailImg" src="assets/coffee_bean.png" alt="Card image cap">
+        </div>
+        <div class="col-md-5 col-lg-5">
+          <div class="card-body">
+            <h1>Product Details</h1>
+            <h2 class="card-title text-start">{{productDetail.blend_name}}</h2>
+            <p class="card-text">Variety: {{productDetail.variety}}</p>
+            <p class="card-text">Origin: {{productDetail.origin}}</p>
+            <p class="card-text">Notes: {{productDetail.notes}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+

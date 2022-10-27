@@ -1,0 +1,8 @@
+<section class="container">
+  <div class="row" *ngIf="productList && productList.length > 0">
+    <app-card *ngFor = "let product of productList | paginate: pagination" [product]="product" class="col-md-3 col-6"></app-card>
+  </div>
+  <div class="row" *ngIf="productList && productList.length > 0">
+    <pagination-controls class="col-12 text-center" (pageChange)="pageChange($event)"></pagination-controls>
+  </div>
+</section>

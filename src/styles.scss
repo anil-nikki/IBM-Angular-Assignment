@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~ngx-toastr/toastr';
+
+body {
+  margin: 0px;
+  background: linear-gradient(180deg, #FEFAF5 7.6%, #FFFFFF 100%) no-repeat;
+  min-height: 100vh;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rto {
+  font-family: 'Roboto', serif !important;
+}
+

@@ -1,0 +1,45 @@
+header {
+  align-items: center;
+  border: 1px none;
+  position: relative;
+  padding: 15px;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 500;
+  box-shadow: 0 1px 6px #EEE8E1FF;
+  .container {
+    margin: 0 20px;
+    .header-title{
+      position: absolute;
+      top:30%;
+      color: #220002;
+    }
+    .logo{
+      display: flex;
+      justify-content: center;
+      img {
+        height: 40px;
+        width: 50px;
+      }
+    }
+    .navbar {
+      display: flex;
+      justify-content: end;
+      .menu {
+        ul{
+          padding: 0;
+          margin: 0;
+          li {
+            list-style-type: none;
+            display: inline;
+            padding: 20px;
+            .nav-link{
+              display: inline;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

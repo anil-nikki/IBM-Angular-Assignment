@@ -1,0 +1,21 @@
+.home{
+  height: 100vh;
+  margin: 60px;
+  justify-content: center;
+
+  .row{
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-image{
+    background: url("~src/assets/homepage.png");
+    background-repeat: no-repeat;
+    background-size: 360px;
+    height: 300px;
+    width: 360px;
+    position: relative;
+
+  }
+}
+

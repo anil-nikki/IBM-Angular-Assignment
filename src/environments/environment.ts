@@ -3,6 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
+  baseUrl: 'https://random-data-api.com/api/coffee/random_coffee',
+  size: 50,
+  recordsPerPage: 10,
   production: false
 };
 
